@@ -39,6 +39,12 @@ main {
     cursor: pointer;
 }
 
+.square img {
+    width: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
 .clicked-azure {
     background-color: rgb(90, 209, 209);
 }
@@ -71,6 +77,4 @@ main {
 
 .clicked-bomb {
     background-color: red;
-    background-image: url(https://minesweeper.us/media/bomba.png);
-    background-size: contain;
 }

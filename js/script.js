@@ -20,6 +20,7 @@ function checkSquares() {
     let squareNumber = parseInt(this.innerText);
     if (bombList.includes(squareNumber)) {
         this.classList.add("clicked-bomb");
+        this.innerHTML = '<img src="https://minesweeper.us/media/bomba.png" />';
         this.removeEventListener("click", checkSquares);
 
         alert(`Hai perso con un punteggio di ${score}`)
