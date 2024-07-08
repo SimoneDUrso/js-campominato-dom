@@ -36,6 +36,7 @@ main {
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .clicked-azure {
@@ -66,4 +67,10 @@ main {
     font-size: 30px;
     color: rgb(255, 115, 0);
     margin-left: 10px;
+}
+
+.clicked-bomb {
+    background-color: red;
+    background-image: url(https://minesweeper.us/media/bomba.png);
+    background-size: contain;
 }
