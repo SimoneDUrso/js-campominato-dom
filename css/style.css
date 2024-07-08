@@ -78,3 +78,11 @@ main {
 .clicked-bomb {
     background-color: red;
 }
+
+.ta-center {
+    text-align: center;
+}
+
+.my-30 {
+    margin: 30px 0px;
+}

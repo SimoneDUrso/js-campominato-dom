@@ -74,6 +74,7 @@ btn.addEventListener("click", function () {
     grid.innerHTML = "";
     score = 0;
     gameOver = false;
+    document.getElementById("score").innerText = "SCORE:";
 
     bombsGenerate();
 
