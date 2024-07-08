@@ -32,7 +32,7 @@ function checkSquares() {
     }
 
     this.removeEventListener("click", checkSquares);
-    document.getElementById("score").innerText = score;
+    document.getElementById("score").innerText = `SCORE: ${score}`;
 
     if (score === totalCells - totalBombs) {
         alert("Che fortuna...!");
